@@ -15,7 +15,11 @@
     <ApplicationIcon>app.ico</ApplicationIcon>
     <RootNamespace />
   </PropertyGroup>
-  <ItemGroup />
+    <ItemGroup>
+    <EmbeddedResource Include="MobiMeter.Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="SharpPcap">
       <HintPath>..\Downloads\MobiMeter.v1.10.4\win-x86\SharpPcap.dll</HintPath>
